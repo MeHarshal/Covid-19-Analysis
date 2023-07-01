@@ -31,10 +31,12 @@ This dataset offers information on the COVID-19 cases, deaths, population, and d
 The analysis methodology consists of data cleaning to address any inconsistencies, followed by visualizations such as charts and maps are then utilized to present the data effectively. Comparative analysis is conducted to understand variations across continents and countries, while time-series analysis is performed to uncover trends and patterns over time.
 
 🔘 **Dashboard**<br>
+
 <img src="https://i.ibb.co/56g5TYJ/Covid-19-Analysis.png" alt="Covid-19-Analysis" border="0"><br>
 The dashboard presents an overview of customer demographics, allowing the bank to identify patterns and trends in terms of gender distribution, age groups, and regional representation. It provides insights into customers' job classifications, enabling the bank to understand the professional diversity among its clientele.
 
 🔘 **Visualizations**<br>
+
 <img src="https://i.ibb.co/BtjVVBZ/Total-Cases-by-Continent.png" alt="Total-Cases-by-Continent" border="0">
 <p></p>
 <img src="https://i.ibb.co/FW3jP1c/Total-Cases-Distribution.png" alt="Total-Cases-Distribution" border="0">
