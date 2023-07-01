@@ -8,6 +8,10 @@ This analysis introduces a well-designed dashboard that provides a comprehensive
 
 The aim of this study is to utilize an analyzed dashboard to gain valuable insights into customers' behavior and preferences. By doing so, the bank intends to tailor its products and services in order to better meet the needs of its customers and ultimately improve customer satisfaction.
 
+🔘 **Data Source**
+
+The data source for this project is Kaggle.com, a popular platform for sharing and discovering datasets. The specific dataset used for this project provides information on the worldwide COVID-19 situation up until 2021. The dataset on Kaggle.com is likely to have been contributed by various sources, such as government agencies, research organizations, or data enthusiasts, and may have undergone preprocessing or consolidation to provide a comprehensive view of the pandemic's impact globally. It is important to refer to the dataset's documentation and metadata for further details on its origin, methodology, and any limitations or biases that may exist.
+
 🔘 **Data Description**
 
 The provided dataset, sourced from Kaggle.com, includes the following data fields:
