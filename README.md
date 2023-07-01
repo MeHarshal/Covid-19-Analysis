@@ -6,7 +6,7 @@ This analysis introduces a well-designed dashboard that provides a comprehensive
 
 🔘 **Aim of the study**
 
-The aim of this study is to utilize an analyzed dashboard to gain valuable insights into customers' behavior and preferences. By doing so, the bank intends to tailor its products and services in order to better meet the needs of its customers and ultimately improve customer satisfaction.
+The aim of this study is to create a uniquely designed dashboard that offers a concise and comprehensive overview of key COVID-19 metrics, providing individuals and organizations with a powerful tool to track and understand the global impact of the pandemic.
 
 🔘 **Data Source**
 
@@ -14,20 +14,21 @@ The data source for this project is Kaggle.com, a popular platform for sharing a
 
 🔘 **Data Description**
 
-The provided dataset, sourced from Kaggle.com, includes the following data fields:
+The provided CSV contains data with the following columns:
 
-1. Name: Customer's name as text or alphanumeric characters.
-2. Gender: Customer's gender as categorical data (e.g., "Male" or "Female").
-3. Age: Customer's age as a numerical value.
-4. Region: Customer's geographic location, such as city, state, or country.
-5. Job Classification: Customer's job category or occupation.
-6. Balance: Customer's bank account balance, represented as a numerical value.
-7. Account Opening Date: Date or timestamp of customer's bank account opening.
+1. Continent: Represents the continent to which a particular country belongs.
+2. Country: Indicates the name of the country within the corresponding continent.
+3. Population: Represents the population of the continent to which the country belongs.
+4. Cases Found by Month: Provides the number of COVID-19 cases found in each month.
+5. Deaths: Represents the number of deaths due to COVID-19.
+6. Age: Indicates the age range in which the COVID-19 virus is spreading.
+7. Year: Represents the year for which the data is recorded.
 
-This dataset offers valuable customer information that can be analyzed to gain insights into behavior, preferences, and financial patterns. Analyzing this data can help the bank tailor their products and services to meet customer needs effectively.
+This dataset offers information on the COVID-19 cases, deaths, population, and demographic factors such as age, organized by continent and country. It provides a comprehensive view of the pandemic's impact on different regions, allowing for analysis and insights into the spread of the virus across various demographic groups and geographical locations.
+
 🔘 **Methodolgy**
 
-The project involves collecting and processing Bank Customer data, and utilized Microsoft Power BI dashboard to gain insights which will helps to improve business of the bank.
+The analysis methodology consists of data cleaning to address any inconsistencies, followed by visualizations such as charts and maps are then utilized to present the data effectively. Comparative analysis is conducted to understand variations across continents and countries, while time-series analysis is performed to uncover trends and patterns over time.
 
 🔘 **Dashboard**<br>
 <img src="https://i.ibb.co/56g5TYJ/Covid-19-Analysis.png" alt="Covid-19-Analysis" border="0"><br>
@@ -45,17 +46,20 @@ The dashboard presents an overview of customer demographics, allowing the bank t
 <img src="https://i.ibb.co/YdJzVhb/Median-age-by-Continent.png" alt="Median-age-by-Continent" border="0">
 <p></p>
 
-🔘 **Findings**
+🔘 **Key Findings**
 
-1. Number of customer joining improved from April in England & Scotland but decreased in Northern Ireland & Wales. Bank should find the factor behind the decrease in number of customer.
-2. Most of the customer belongs to 31-40 Age group, Bank should focus on attracting customers from other age group.
-3. Till age of 35, Females were keeping most balance but after 35 the balance is decreasing. Bank should come with offers or rewards on deposits done by females so that the deposit will increase.
-4. Bank has less number of customers from Wales & Northern Ireland. Bank should develop strategies to improve their business in these regions.
-5. Compared to the number of customers by job type, Female from Blue collar job type are in less ratio compared to others. Bank should bring some offer for females so that number of females will increase.
+1. Impact of COVID-19: The total number of cases across all continents amounts to a staggering 191 million, with 529,000 reported deaths.
+2. Geographical Impact: Asia and Europe have the highest number of cases, while Europe and South America experienced the highest number of deaths due to COVID-19.
+3. Age Distribution: In Europe, the median age of individuals affected by COVID-19 falls within the 40-50 age group, while in other continents, it predominantly affects individuals aged 20-30.
+4. Top Affected Countries: The top five countries by total cases are Brazil, France, India, Russia, and the United States. The top five countries by total deaths are the United States, Brazil, India, Mexico, and Peru.
+
+These insights highlight the widespread impact of COVID-19, the varying age distribution among affected individuals, and the significant burden faced by specific countries in terms of both cases and deaths.
 
 🔘 **Summary**
 
-Using Power BI, the analysis aimed to uncover customer behavior and preferences. The dashboard displayed valuable insights on demographics, job classifications, account balances, and more, enabling the bank to enhance its offerings and strengthen customer relationships for improved satisfaction.
+1. This analysis reveals that COVID-19 has resulted in 191 million cases and 529,000 deaths across continents, with Asia and Europe being highly affected regions.
+2. The median age of COVID-19 cases differs by continent, with Europe showing an age range of 40-50, while other continents predominantly experience cases in the 20-30 age group.
+3. The top five countries in terms of total cases include Brazil, France, India, Russia, and the United States, while the highest number of deaths occurred in the United States, Brazil, India, Mexico, and Peru.
 
 🔘 **Challenges Faced**
 
